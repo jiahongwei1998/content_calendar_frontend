@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// https://docs.flutter.dev/cookbook/networking/fetch-data
+
 void main() {
   runApp(const MyApp());
 }
@@ -32,6 +34,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
